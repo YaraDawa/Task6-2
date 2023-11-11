@@ -1,0 +1,36 @@
+.serviceCard {
+  
+  background-color: #e3e1e1;
+  border-radius: 15px;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 9px;
+}
+.serviceCard img {
+  width: 130px;
+  height: 130px;
+}
+
+.serviceCard h1 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .serviceCard{
+        width: 143px;
+        height: 136px;
+    }
+  .serviceCard img {
+    width: 68px;
+    height: 68px;
+  }
+  .serviceCard h1 {
+    font-size: 12px;
+  }
+}

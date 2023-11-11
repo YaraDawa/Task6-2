@@ -1,0 +1,32 @@
+.sentance{
+    max-width: 100%;
+    background-color: #000;
+}
+
+#x{
+    color:#fff;
+    overflow-y: hidden;
+}
+.sentance .close{
+    border-radius: 50%;
+    color: #000;
+}
+
+#x:hover{
+    color:red;
+    transition: all ease 2s;
+}
+
+#s:hover{
+    color: red;
+    cursor: pointer;
+}
+@media screen and (max-width : 992px ) {
+    .sentance p{
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

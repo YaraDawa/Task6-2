@@ -1,0 +1,23 @@
+.btn-slider{
+    padding: 10px 60px;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid var(--light);
+    color: black;
+    text-transform: uppercase;
+    transition: all 1s ease;
+}
+.btn-slider:hover{
+    color: var(--light);
+    border: none;
+    background-color:red;
+}
+.btn-slider p{
+    font-size: 15px;
+    margin: 0;
+}
+@media screen and (max-width : 992px ) {
+.h3{
+    font-size: 15px;
+}
+}
